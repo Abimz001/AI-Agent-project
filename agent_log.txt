@@ -1,0 +1,10 @@
+[2026-11-11 00:19:29] USER: calc 12 * 4
+[2026-11-11 00:19:29] AGENT: 12 * 4 = 48
+[2026-11-11 00:19:34] USER: help
+[2026-11-11 00:19:34] AGENT: Available commands:
+  calc <expr>   e.g. 'calc 12 * 4'
+  time          ask what time it is
+  help          show this message
+  exit / quit   end the session
+[2026-11-11 00:19:56] USER: exit
+[2026-11-11 00:19:56] AGENT: Goodbye! We had 5 turns this session.
