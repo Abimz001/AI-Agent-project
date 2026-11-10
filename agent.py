@@ -44,3 +44,22 @@ def run():
 if __name__ == "__main__":
     run()
 
+"""
+agent.py
+COMMIT 3 (on feature/tools branch): Adds simple tool-calling.
+"""
+
+
+from memory import Memory
+from tools import calculate, get_time
+
+
+
+
+def greet():
+    print("=" * 50)
+    print("  Simple AI Agent  (v0.3 - with tools)")
+    print("=" * 50)
+    print("Try: 'calc 4 + 5'  or  'what time is it'")
+    print("Type 'exit' to quit.\n")
+
